@@ -1,0 +1,42 @@
+Part 1: Discussion Questions
+Runtime
+1. O(n) where the number of operations is determined by manually picking out an 
+animal cracker to see if it's an elephant
+2.O(1), O(n), O(log n), O(n log n), O(n^2), O(2^n)
+
+Stacks and Queues
+1. 
+    1. Stack
+    2. Queue
+    3. Stack
+2. Queue - software for receiving user complaints and responding to them, 
+a search for a library book in a list of titles 
+
+3. Stack - ordering restaurants based on proximity, ordering data about shopper's
+    preferences hierarchically 
+
+Linked Lists
+1. The three smaller rectanges below the head rectangle are the nodes. For each of the nodes, the
+data is a string, and the next rectangle with arrow is a link that points to/references the next node.
+The head is at the top. The last node is a reference to null, and there is no tail. 
+2. In addition to having a reference to the next in one direction, there is also a link/arrow to the 
+previous node. 
+3. If we keep track of the tail as an attribute we know where the end is, and when we know where something
+ends, we know adding to it is O(1). 
+
+Trees
+1. A breadth first search would start with the parent node, then check the children to see if one of them are a burrito.
+If not, the children's descendants get checked to see if they are a burrito. The order for finding burrito would be food, 
+Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos.
+
+
+2. A depth first search starts with the parent node, then checks each child's descendant nodes on by one, to see if 
+one of that child's descendants are a match. The order for finding chicago style would be food, italian, lasagna, pizza, thin crust, chicago
+style.
+
+3. Binary search trees are faster because the nodes are arranged in order where each parent node has 
+two children. The left node has elements less than the parent node and the right node has elements greater than 
+the parent node.
+
+
+
